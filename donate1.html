@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate | Simmi Foundation</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <main class="container">
+        <h1 class="my-3 text-center">DONATE</h1>
+        <div class="container text-center mx-auto">
+            <div class="row mb-2">
+                <div class="col-md-6">
+                    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250
+                    position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-primary">Education</strong>
+                            <h3 class="mb-0">Featured post</h3>
+                            <div class="mb-1 text-muted">Jan 21</div>
+                            <p class="card-text mb-auto">This is a wider card with supporting text below as a natural
+                                lead-in to
+                                additional content.</p>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img class="bd-placeholder-img md-placeholder-img" width="200" height="250"
+                                src="img/donate1.jfif">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-success">Women Empowerment</strong>
+                            <h3 class="mb-0">Post title</h3>
+                            <div class="mb-1 text-muted">Mar 20</div>
+                            <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to
+                                additional content.</p>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img class="bd-placeholder-img" width="200" height="250" src="img/donate2.jfif">
+                            <title>Placeholder</title>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-7 col-lg-8 mx-auto">
+
+            <form class="needs-validation" novalidate="" data-toggle="modal" id="donateForm">
+                <div class="row g-3">
+                    <div class="col-sm-6">
+                        <label for="firstName" class="form-label">First name<span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                        <div class="invalid-feedback">
+                            Valid first name is required.
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <label for="lastName" class="form-label">Last name<span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                        <div class="invalid-feedback">
+                            Valid last name is required.
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <label for="username" class="form-label">Phone<span class="text-danger">*</span></label>
+                        <div class="input-group has-validation">
+                            <span>
+                                <select class="input-group-text">
+                                    <option selected>+91</option>
+                                    <option>+1</option>
+                                </select>
+                            </span>
+                            <input type="number" class="form-control" id="phone" placeholder="Mobile number"
+                                required="">
+                            <div class="invalid-feedback">
+                                Your Phone number is required.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <label for="email" class="form-label">Email<span class="text-danger">*</span></label>
+                        <input type="email" class="form-control" id="email" placeholder="you@example.com" required>
+                        <div class="invalid-feedback">
+                            Please enter a valid email address.
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <label for="aadhar" class="form-label">Aadhar<span class="text-danger">*</span></label>
+                        <input type="number" class="form-control" id="address" placeholder="1234 1234 1234" required="">
+                        <div class="invalid-feedback">
+                            Please enter your aadhar card number.
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <label for="pan" class="form-label">PAN <span class="text-muted">(Optional)</span></label>
+                        <input type="text" class="form-control" id="pan" placeholder="Pan card number">
+                    </div>
+
+                    <div class="col-12">
+                        <label for="address" class="form-label">Address<span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
+                        <div class="invalid-feedback">
+                            Please enter your address.
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <label for="address2" class="form-label">Address 2 <span
+                                class="text-muted">(Optional)</span></label>
+                        <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+                    </div>
+
+                    <div class="col-md-5">
+                        <label for="country" class="form-label">Country<span class="text-danger">*</span></label>
+                        <select class="form-select" id="country" required="">
+                            <option value="">Choose...</option>
+                            <option>India</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please select a valid country.
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label for="state" class="form-label">State<span class="text-danger">*</span></label>
+                        <select class="form-select" id="state" required="">
+                            <option value="">Choose...</option>
+                            <option>Andhra Pradesh</option>
+                            <option>Arunachal Pradesh</option>
+                            <option>Assam</option>
+                            <option>Bihar</option>
+                            <option>Chhattisgarh</option>
+                            <option>Goa</option>
+                            <option>Gujarat</option>
+                            <option>Haryana</option>
+                            <option>Himachal Pradesh</option>
+                            <option>Jharkhand</option>
+                            <option>Karnataka</option>
+                            <option>Kerala</option>
+                            <option>Madhya Pradesh</option>
+                            <option>Maharashtra</option>
+                            <option>Manipur</option>
+                            <option>Meghalaya</option>
+                            <option>Mizoram</option>
+                            <option>Nagaland</option>
+                            <option>Odisha</option>
+                            <option>Punjab</option>
+                            <option>Rajasthan</option>
+                            <option>Sikkim</option>
+                            <option>Tamil Nadu</option>
+                            <option>Telangana</option>
+                            <option>Tripura</option>
+                            <option>Uttar Pradesh</option>
+                            <option>Uttarakhand</option>
+                            <option>West Bengal</option>
+
+                        </select>
+                        <div class="invalid-feedback">
+                            Please provide a valid state.
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <label for="zip" class="form-label">Zip<span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="zip" placeholder="" required="">
+                        <div class="invalid-feedback">
+                            Zip code required.
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="my-4">
+
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="tnc" required>
+                    <label class="form-check-label" for="tnc">I Accept the terms and condiitions</label><span
+                        class="text-danger">*</span><a href="#" class="mx-1">Read T&C...</a>
+                    <p>
+                    <div class="invalid-feedback">
+                        Please Agree to our terms and conditions.
+                    </div>
+                    <br><span class="text-danger">*</span> <span>Required Fields</span>
+                    </p>
+                </div>
+
+                <hr class="my-4">
+                <button type="submit" class="w-100 btn btn-primary btn-lg mb-5">DONATE</button>
+            </form>
+        </div>
+        <div class="modal fade" id="donateModal" tabindex="-1" aria-labelledby="donateModalLabel" aria-hidden="true"
+            role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header border border-warning border-3 border-bottom-0">
+                        <h5 class="modal-title" id="donateModalLabel">Select Amount</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body border border-warning border-3">
+                        <form>
+                            <div class="form-check my-2 mt-0">
+                                <input class="form-check-input" type="radio" name="amount" id="amount5k">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    INR 5000 - for spreading awareness and contact tracing
+                                </label>
+                            </div>
+                            <div class="form-check my-2">
+                                <input class="form-check-input" type="radio" name="amount" id="amount15k">
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                    INR 15000 - for supporting 5 households with dry ration for a month
+                                </label>
+                            </div>
+                            <div class="form-check my-2">
+                                <input class="form-check-input" type="radio" name="amount" id="amount25k">
+                                <label class="form-check-label" for="flexRadioDefault3">
+                                    INR 25000 - for supporting 10 households with dry ration for a month
+                                </label>
+                            </div>
+                            <div class="form-check my-2">
+                                <input class="form-check-input" type="checkbox" value="" id="checkamount">
+                                <label class="form-check-label" for="checkamount">
+                                    Others (Any amount can be added)
+                                </label>
+                                <input class="form-control" type="number" placeholder="Amount in INR" id="added">
+                            </div>
+                            <div>
+                                <label class="form-label my-2" for="comment">
+                                    Comments :
+                                </label>
+                                <textarea class="form-control" placeholder="Add Your Valueable Comments" id="comment"
+                                    rows="4"></textarea>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="modal-footer  border border-warning border-3 border-top-0">
+                        <button type="submit" class="btn btn-outline-warning">Proceed to Pay</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            $('#donateForm').on('submit', function (e) {
+
+                e.preventDefault(); //stop submit
+
+                if ($('#tnc').is(':checked')) {
+                    //Check if checkbox is checked then show modal
+                    $('#donateModal').modal('show');
+                }
+            });
+        </script>
+
+    </main>
+    <script src="js/form-validation.js"></script>
+</body>
+
+</html>
